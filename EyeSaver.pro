@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui webenginewidgets
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -25,10 +25,13 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        settings.cpp
+        settings.cpp \
+    screensaverview.cpp
 
 HEADERS += \
-        settings.h
+        settings.h \
+    screensaverview.h
 
 FORMS += \
-        settings.ui
+        settings.ui \
+    screensaverview.ui
